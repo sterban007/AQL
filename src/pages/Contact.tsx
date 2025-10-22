@@ -217,7 +217,7 @@ function Contact() {
                   {isSubmitting ? (t('contact.submitting') || 'Submitting...') : (t('contact.submit') || 'Submit')}
                 </button>
                 <a
-                  href="https://wa.me/966533036592"
+                  href="https://wa.me/966533636592"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="whatsapp-button"

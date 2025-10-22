@@ -87,7 +87,7 @@ const translations = {
     // Contact Page
     'contact.title': 'Contact Us',
     'contact.location': 'Saudi Arabia, Riyadh',
-    'contact.phone': 'P +966 53 303 6592',
+    'contact.phone': 'P +966 533636592',
     'contact.ask': 'Ask Us Anything',
     'contact.request': 'General Information Request',
     'contact.firstName': 'FIRST NAME',
@@ -195,7 +195,7 @@ const translations = {
     // Contact Page
     'contact.title': 'اتصل بنا',
     'contact.location': 'المملكة العربية السعودية، الرياض',
-    'contact.phone': 'هاتف +966 53 303 6592',
+    'contact.phone': 'هاتف +966 533636592',
     'contact.ask': 'اسألنا أي شيء',
     'contact.request': 'طلب معلومات عامة',
     'contact.firstName': 'الاسم الأول',
