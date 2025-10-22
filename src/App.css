@@ -223,16 +223,18 @@ body {
   .nav-mobile {
     display: flex;
     position: fixed;
-    top: 70px;
+    top: 85px;
     left: -100%;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 85px);
     background: #fff;
     flex-direction: column;
     padding: 40px 20px;
     transition: left 0.3s ease;
     gap: 25px;
     z-index: 99;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 
   .nav-mobile.nav-open {
@@ -254,10 +256,10 @@ body {
   .nav-mobile {
     display: flex;
     position: fixed;
-    top: 70px;
+    top: 85px;
     left: -100%;
     width: 400px;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 85px);
     background: #fff;
     flex-direction: column;
     padding: 40px 30px;
@@ -265,6 +267,8 @@ body {
     gap: 25px;
     box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
     z-index: 99;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 
   .nav-mobile.nav-open {
@@ -1552,13 +1556,46 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .service-cards-grid-new {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+
   .consulting-card {
+    grid-column: span 1;
+  }
+
+  .consulting-card-new {
     grid-column: span 1;
   }
 
   .service-card {
     min-height: 250px;
     padding: 30px;
+  }
+
+  .service-card-new {
+    min-height: 300px !important;
+    padding: 40px 30px !important;
+  }
+
+  .service-card-new h3 {
+    font-size: 32px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .service-card-new:hover h3 {
+    font-size: 28px !important;
+  }
+
+  .card-tagline-new {
+    font-size: 16px !important;
+  }
+
+  .card-description-new {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
   }
 
   .service-card h4 {
